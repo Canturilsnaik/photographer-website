@@ -94,3 +94,26 @@ body.light--mode{
   color: var(--secondary-color);
 }
 
+.main{
+  height: 100vh;
+  position: relative;
+}
+
+.main__card{
+  background: #C4C4C4;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 130px;
+  width: 290px;
+  margin-top: 4.6875em;
+}
+
+.main__title{
+  color: #000;
+  position: absolute;
+  left: 170px;
+  text-align: center;
+}
